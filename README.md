@@ -4,9 +4,11 @@
 [![BC](https://img.shields.io/badge/.NET-Framework-informational)](https://github.com/BionicCode/BionicCode.Net#bioniccodenet--)
 [![BC](https://img.shields.io/badge/-WPF-informational?logo=windows)](https://github.com/BionicCode/BionicCode.Net#bioniccodenet--)
 
-Example of how to implement [`INotifyDataErrorInfo`](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifydataerrorinfo?view=net-8.0)
+Example that shows how to implement [`INotifyDataErrorInfo`](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifydataerrorinfo?view=net-8.0).  
 
-The example contains a fully working and reusable base class for all view models. This base class implements `INotifyDataErrorInfo` and `INotifyPropertyChanged`.  
+The example aimed to provide a reusable solution and therefore does not refelect the most simplistic implementation.
+The example contains a fully working and reusable base class [`ViewModel`](https://github.com/BionicCodeStackoverflow/Data_Validation_Example/blob/main/DataValidation/DataValidation.Main/ViewModel.cs) for all view models.  
+This base class `ViewModel` implements `INotifyDataErrorInfo` and `INotifyPropertyChanged`.  
 Simply extend `ViewModel` to get the features:
 
 ```c#
