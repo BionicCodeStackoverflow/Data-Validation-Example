@@ -71,7 +71,7 @@
         this.validationRules.Add(propertyName, validationRulesForProperty);
       }
 
-      validationRulesForProperty.Add(validationRule);
+      _ = validationRulesForProperty.Add(validationRule);
     }
 
     /// <summary>
