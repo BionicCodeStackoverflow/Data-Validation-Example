@@ -1,4 +1,4 @@
-# Data_Validation_Example
+# Data Validation Example
 
 [![BC](https://img.shields.io/badge/.NET-informational)](https://github.com/BionicCode/BionicCode.Net#bioniccodenet--)
 [![BC](https://img.shields.io/badge/.NET-Framework-informational)](https://github.com/BionicCode/BionicCode.Net#bioniccodenet--)
